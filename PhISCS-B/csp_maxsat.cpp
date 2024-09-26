@@ -428,7 +428,7 @@ void set_y_variables()
         {
             numVarY++;
             var_y[i][j] = numVarY;
-            map_y2ij[numVarY] = make_pair<int, int>(i, j);
+            map_y2ij[numVarY] = make_pair(i, j);
         }
     }
 }
